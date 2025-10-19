@@ -38,7 +38,8 @@ O comparativo destaca a relação fundamental entre os algoritmos:
 Esta seção contém a implementação em Python do Algoritmo de Dijkstra, utilizando a biblioteca `heapq` (min-heap) para gerenciar eficientemente a fila de prioridade.
 
 * **Aplicação:** O algoritmo é testado no "Grafo da Romênia" para encontrar o caminho mais curto e o custo total da rota entre as cidades 'Arad' e 'Bucharest'.
-* **Resultado:** O caminho ótimo encontrado foi `Arad -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucharest` com um custo total de `418`.
+* **Resultado (Dijkstra):** O caminho ótimo encontrado foi `Arad -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucharest` com um custo total de `418`.
+* **Comparação:** Também é realizada uma análise comparativa de eficiência (nós explorados) e otimização de custo deste algoritmo contra a **Busca em Largura (BFS)** e a busca informada **A* (A-Star)**, demonstrando as vantagens e desvantagens de cada abordagem.
 
 ### 4. Análise e Implementação: O Problema das 8 Rainhas
 
